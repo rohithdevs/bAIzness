@@ -1,0 +1,15 @@
+bAIzness — starting both halves
+
+[api] Credential database ready (existing accounts preserved).
+[api] bAIzness backend API server running on http://localhost:5000
+[ui]   [32m[1mVITE[22m v7.3.2[39m  [2mready in [0m[1m459[22m[2m[0m ms[22m
+[ui]   [32m➜[39m  [1mLocal[22m:   [36mhttp://localhost:[1m5173[22m/[39m
+[ui]   [32m➜[39m  [1mNetwork[22m: [36mhttp://192.168.1.7:[1m5173[22m/[39m
+
+  API     http://localhost:5000/api/health
+  App     http://localhost:5173/
+  LAN     http://192.168.1.7:5173/
+  Sign in user@baizness.demo / user123   (or admin@baizness.demo / admin123)
+
+  Ctrl+C stops both.
+

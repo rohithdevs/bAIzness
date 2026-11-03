@@ -1,0 +1,23 @@
+# dependencies
+node_modules/
+
+# API credentials
+.env
+.env.*
+!.env.example
+backend/.env
+backend/.env.*
+!backend/.env.example
+
+# build output
+dist/
+build/
+
+# logs
+*.log
+
+# runtime data: the SQLite credential database is never committed
+backend/data/
+*.db
+*.db-wal
+*.db-shm

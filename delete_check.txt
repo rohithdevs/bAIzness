@@ -1,0 +1,6 @@
+created i-delcheck-1790762988957
+delete ok=true (want true)
+refetch status=404 (want 404)
+in state after delete=false (want false)
+plan orphan=false reco orphan=false (want false false)
+repro cleanup status=404

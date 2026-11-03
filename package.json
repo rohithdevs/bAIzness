@@ -1,0 +1,16 @@
+{
+  "name": "baizness",
+  "version": "1.0.0",
+  "private": true,
+  "description": "bAIzness — AI opportunity validation platform (React frontend + Express/SQLite backend)",
+  "scripts": {
+    "start": "node run.mjs",
+    "dev:backend": "node backend/src/index.js",
+    "dev:frontend": "npm run dev --prefix frontend",
+    "build": "npm run build --prefix frontend",
+    "verify": "node verify.mjs",
+    "walkthrough": "node backend/scripts/walkthrough.mjs",
+    "verify:backend": "node backend/scripts/smoke-auth.mjs",
+    "verify:frontend": "node frontend/node_modules/typescript/bin/tsc --noEmit --project frontend/tsconfig.json"
+  }
+}
